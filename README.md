@@ -4,6 +4,7 @@
 Auto-Netlist is a computer vision and graph theory application designed to bridge the gap between hand-drawn analog schematics and Electronic Design Automation (EDA) software. By leveraging a fine-tuned object detection model and morphological image processing, this pipeline automatically translates raw sketches of electronic circuits into machine-readable LTspice netlists (.net).
 
 This project demonstrates a practical intersection of deep learning, computer vision, and core circuit theory.
+try live: https://huggingface.co/spaces/DSAkash/Sketch-To-Spice
 
 ## Key Features
 * Automated Component Detection: Utilizes a custom-trained YOLOv8 model to identify standard circuit components (Op-Amps, BJTs, FETs, Resistors, Capacitors, etc.) from hand-drawn images.

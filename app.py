@@ -4,7 +4,7 @@ import gradio as gr
 from ultralytics import YOLO
 from skimage.morphology import skeletonize
 
-# LOAD THE AI BRAIN (Updated path for Hugging Face!)
+# AI model
 model = YOLO('best.pt')
 
 def process_circuit(img):
@@ -79,7 +79,7 @@ def process_circuit(img):
     spice_code = "\n".join(netlist)
     return res_img_rgb, nodes_img_rgb, spice_code
 
-# Build UI
+#interface of this thing
 demo = gr.Interface(
     fn=process_circuit,
     inputs=gr.Image(type="numpy", label="Upload Circuit Sketch"),

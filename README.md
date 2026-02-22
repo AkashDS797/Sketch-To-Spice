@@ -5,6 +5,9 @@ Auto-Netlist is a computer vision and graph theory application designed to bridg
 
 This project demonstrates a practical intersection of deep learning, computer vision, and core circuit theory.
 try live: https://huggingface.co/spaces/DSAkash/Sketch-To-Spice
+Example
+![Uploading image.png…]()
+
 
 ## Key Features
 * Automated Component Detection: Utilizes a custom-trained YOLOv8 model to identify standard circuit components (Op-Amps, BJTs, FETs, Resistors, Capacitors, etc.) from hand-drawn images.
